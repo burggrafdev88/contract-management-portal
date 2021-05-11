@@ -1,0 +1,11 @@
+/*styles to push footer towards bottom of page*/
+#container{
+  min-height: 100%;
+}
+
+#main{
+  overflow: auto;  /*creates scroll bar once this section extends past one page*/
+  padding-bottom: 80px;  /*must match footer height, prevents content in main from disappearing behind footer*/
+}
+
+
