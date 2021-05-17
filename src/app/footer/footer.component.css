@@ -1,0 +1,15 @@
+.footer{
+  height: 80px;
+  margin-top: -80px;  /*must be equal to footer height (but negative)*/
+  background-color: #343a40; /*equal to navbar color*/
+  color: white;
+}
+
+.footer-content{
+  padding-top: 15px;   /*to help center content in footer*/
+}
+
+.footer p{
+  text-align: center;
+  margin-bottom: 0;  /*remove space between paragraphs in footer*/
+}

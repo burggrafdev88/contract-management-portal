@@ -1,0 +1,6 @@
+<button class="btn btn-success" (click)="getWelcomeMessageWithParameter()">Welcome</button>
+
+<div class="container" *ngIf="welcomeMessageFromService">
+  <h2>Your Customized Welcome Message</h2>
+  {{welcomeMessageFromService}}
+</div>
