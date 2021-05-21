@@ -2,11 +2,12 @@ import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
 import {WelcomeComponent} from './welcome/welcome.component';
 import {MasterAgreementAddComponent} from './master-agreement-add/master-agreement-add.component';
+import {ContractorAddComponent} from './contractor-add/contractor-add.component';
 
 const routes: Routes = [
   {
-    path: 'welcome',
-    component: WelcomeComponent
+    path: 'contractor-add',
+    component: ContractorAddComponent
   },
   {
     path: 'master-agreement-add',
@@ -14,8 +15,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: '/welcome',
-    pathMatch: 'full'
+    component: WelcomeComponent
   }
 ];
 

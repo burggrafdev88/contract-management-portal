@@ -1,0 +1,25 @@
+.intro{
+  padding-top: 0.5em;
+  padding-left: 1em;
+}
+
+form.add-contractor{
+  background-color: #ededed;
+  border-radius: 8px;
+  padding: 2em;
+  font-weight: 700;
+}
+
+.help-block{
+  font-weight: normal;
+  color: red;
+}
+
+form button{
+  width: 50%;
+}
+
+/*If user clicks into field and doesn't input a valid entry, place border around the field.*/
+input.ng-invalid.ng-touched, select.ng-invalid.ng-touched{
+  border: 1px solid red;
+}

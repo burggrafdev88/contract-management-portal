@@ -8,7 +8,4 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'contract-management-portal';
 
-  getWelcomeMessage(){
-    console.log('get welcome message');
-  }
 }
