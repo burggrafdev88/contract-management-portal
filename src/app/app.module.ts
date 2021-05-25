@@ -7,8 +7,8 @@ import {FooterComponent} from './footer/footer.component';
 import {HttpClientModule} from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
 import {MasterAgreementAddComponent} from './master-agreement-add/master-agreement-add.component';
-import { ContractorComponent } from './contractor/contractor.component';
 import { ContractorAddComponent } from './contractor-add/contractor-add.component';
+import { ContractorListComponent } from './contractor-list/contractor-list.component';
 
 @NgModule({
   declarations: [
@@ -16,8 +16,8 @@ import { ContractorAddComponent } from './contractor-add/contractor-add.componen
     HeaderComponent,
     FooterComponent,
     MasterAgreementAddComponent,
-    ContractorComponent,
-    ContractorAddComponent
+    ContractorAddComponent,
+    ContractorListComponent
   ],
   imports: [
     BrowserModule,

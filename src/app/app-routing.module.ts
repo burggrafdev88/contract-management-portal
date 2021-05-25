@@ -3,6 +3,7 @@ import {RouterModule, Routes} from '@angular/router';
 import {WelcomeComponent} from './welcome/welcome.component';
 import {MasterAgreementAddComponent} from './master-agreement-add/master-agreement-add.component';
 import {ContractorAddComponent} from './contractor-add/contractor-add.component';
+import {ContractorListComponent} from './contractor-list/contractor-list.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,10 @@ const routes: Routes = [
   {
     path: '',
     component: WelcomeComponent
+  },
+  {
+    path: 'contractor-list',
+    component: ContractorListComponent
   }
 ];
 

@@ -23,7 +23,7 @@ export class ContractorAddComponent implements OnInit {
     this.contractorService.add(form.value).subscribe(
       data => {
         console.log(data);
-        this.router.navigate(['contractor-add']);
+        this.router.navigate(['contractor-list']);
       }
     );
   }
