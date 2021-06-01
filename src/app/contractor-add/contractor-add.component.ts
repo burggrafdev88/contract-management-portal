@@ -27,4 +27,5 @@ export class ContractorAddComponent implements OnInit {
       }
     );
   }
+
 }

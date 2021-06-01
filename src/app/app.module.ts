@@ -9,6 +9,7 @@ import {FormsModule} from '@angular/forms';
 import {MasterAgreementAddComponent} from './master-agreement-add/master-agreement-add.component';
 import { ContractorAddComponent } from './contractor-add/contractor-add.component';
 import { ContractorListComponent } from './contractor-list/contractor-list.component';
+import { ContractorEditComponent } from './contractor-edit/contractor-edit.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ContractorListComponent } from './contractor-list/contractor-list.compo
     FooterComponent,
     MasterAgreementAddComponent,
     ContractorAddComponent,
-    ContractorListComponent
+    ContractorListComponent,
+    ContractorEditComponent
   ],
   imports: [
     BrowserModule,

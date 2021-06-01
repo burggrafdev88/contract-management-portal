@@ -13,4 +13,5 @@ export class ContractorService {
   add(contractor){
     return this.http.post(`http://localhost:8080/contractors/`, contractor);
   }
+
 }

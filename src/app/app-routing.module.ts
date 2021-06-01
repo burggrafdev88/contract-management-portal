@@ -1,6 +1,5 @@
 import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
-import {WelcomeComponent} from './welcome/welcome.component';
 import {MasterAgreementAddComponent} from './master-agreement-add/master-agreement-add.component';
 import {ContractorAddComponent} from './contractor-add/contractor-add.component';
 import {ContractorListComponent} from './contractor-list/contractor-list.component';
@@ -13,10 +12,6 @@ const routes: Routes = [
   {
     path: 'master-agreement-add',
     component: MasterAgreementAddComponent
-  },
-  {
-    path: '',
-    component: WelcomeComponent
   },
   {
     path: 'contractor-list',
